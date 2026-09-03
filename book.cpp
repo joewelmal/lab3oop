@@ -1,9 +1,9 @@
 /*
  * Course: COEN 2220 - Programming 2
- * Name: [Your Name]
+ * Name: [Joewel Maldonado]
  * Lab: Lab 3 - Object-Oriented Programming, Part 1
  * Description: Guided example - the Book class
- * Due date: [Date]
+ * Due date: [September 3, 2026]
  */
 
 #include <iostream>
@@ -103,7 +103,7 @@ int main() {
 
     cout << "--- Initial state ---\n";
     b1.printInfo();
-    
+
 
     // --- STEP 2 main() code goes here later ---
         cout << "\n--- After setTitle/setAuthor ---\n";
