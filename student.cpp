@@ -79,8 +79,8 @@ class Student
         // ===== No los toques todavia - les toca mas adelante =====
 
         // TODO (Parte D): Constructor with parameters (name, id, gpa).
-/*
-        Student::Student(string n, int i, double g) 
+
+        Student(string n, int i, double g) 
         {
             name = n;
             id = i;
@@ -89,10 +89,11 @@ class Student
 
         // TODO (Parte E): Destructor.
         // Imprime un mensaje indicando que el objeto Student con ese 'name' fue destruido.
-        ~Student() {
+        /*~Student() {
             cout << "Student object with name '" << name << "' has been destroyed." << endl;
         }
             */
+            
 };
 
 int main() {
@@ -116,6 +117,9 @@ int main() {
 
     // TODO (Parte D): Crea un segundo Student usando el constructor con
     // parametros, con datos dummy (ej. "Alice Smith", 1001, 3.7).
+
+    Student s2("Alice Smith", 1001, 3.7);
+    s2.printInfo();
 
     return 0;
 }
