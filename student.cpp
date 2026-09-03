@@ -89,10 +89,10 @@ class Student
 
         // TODO (Parte E): Destructor.
         // Imprime un mensaje indicando que el objeto Student con ese 'name' fue destruido.
-        /*~Student() {
+        ~Student() {
             cout << "Student object with name '" << name << "' has been destroyed." << endl;
         }
-            */
+            
             
 };
 
